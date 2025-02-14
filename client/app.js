@@ -1,7 +1,7 @@
 // Connect to server
 const socket = new WebSocket('wss://localhost:443');
 
-// Connection opened
+// Connection opened 
 socket.addEventListener('open', () => {
   console.log('Connected to server!');
 });
