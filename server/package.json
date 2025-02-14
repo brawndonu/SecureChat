@@ -1,0 +1,22 @@
+{
+  "name": "securechat-server",
+  "version": "1.0.0",
+  "description": "Secure WebSocket server for SecureChat",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js",
+      "gen-certs": "sh ../scripts/generate-certs.sh"
+  },
+  "engines": {
+      "node": ">=18.0.0"
+  },
+  "dependencies": {
+      "dotenv": "^16.4.0",
+      "ws": "^8.18.0"
+  },
+  "devDependencies": {
+      "nodemon": "^3.1.0"
+  }
+}
